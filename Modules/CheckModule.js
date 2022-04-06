@@ -5,6 +5,8 @@ function UserDate(name,dataOfBirth){
     if(dataOfBirth.getFullYear() =='2020'){
         console.error(errorDate);
     }
-    console.log('Your name is '.name,' and Your agen '.dataOfBirth);
+    else{
+        console.log('Your name is '+name,' and Your agen '+dataOfBirth);
+    }
 }
 module.exports = {User:UserDate};

@@ -5,25 +5,33 @@ function Add(num1,num2){
     if(isNaN(num1) || isNaN(num2) ){
         console.error(errorMsg);
     }
-    sum=num1+num2;
-    console.log("Sum = ",sum)
+    else{
+        sum=num1+num2;
+        console.log("Sum = ",sum)
+    }
+   
 }
 function Sub(num1,num2){
     var sub=0.0;
     if(isNaN(num1) || isNaN(num2) ){
         console.error(errorMsg);
+    }else{
+        sub=num1-num2;
+        console.log("Sub = ",sub)
+    
     }
-    sub=num1-num2;
-    console.log("Sub = ",sub)
-
+ 
 }
 function Multi(num1,num2){
     var multi=0.0;
     if(isNaN(num1) || isNaN(num2) ){
         console.error(errorMsg);
     }
-    multi=num1*num2;
-    console.log("Multi = ",multi)
+    else{
+        multi=num1*num2;
+        console.log("Multi = ",multi)
+    }
+    
 
 }
 module.exports = {
